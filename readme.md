@@ -1,0 +1,1 @@
+A small project for me to learn how to use postgres with python in Docker containers.
