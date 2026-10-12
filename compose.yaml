@@ -1,0 +1,16 @@
+volumes:
+  postgres_data:
+
+services:
+  bot:
+    build: Dockerfile
+    container_name: discord_bot
+    env_file:
+      - src.env
+  db:
+    image: postgres:15
+    container_name: postgres_db
+    env_file:
+      - postgres.env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
