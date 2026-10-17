@@ -1,5 +1,4 @@
-from dotenv import find_dotenv, dotenv_values
+import os
 
-env = dotenv_values(find_dotenv())
-
-print(env['test'])
+print(os.environ.get("POSTGRES_PASSWORD"))
+print(os.environ.get("TEST"))
