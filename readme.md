@@ -14,7 +14,7 @@ PASS_VALUE_NAME2=newer person
 PASS_VALUE_COMPANY2=cattier organization
 ```
 Should look something like this:
-```bash
+```
 $ docker compose up --build
 [+] up 17/17
  ✔ Image postgres:15 Pulled                                                                                                     10.9s
