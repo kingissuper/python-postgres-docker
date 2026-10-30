@@ -11,7 +11,8 @@ POSTGRES_PASSWORD=postgres
 PASS_VALUE_NAME=new person
 PASS_VALUE_COMPANY=cat organization
 PASS_VALUE_NAME2=newer person
-PASS_VALUE_COMPANY2=cattier organization```
+PASS_VALUE_COMPANY2=cattier organization
+```
 Should look something like this:
 ```bash
 [kingissuper@meow python+postgres_docker]$ docker compose up --build
