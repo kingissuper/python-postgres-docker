@@ -15,7 +15,7 @@ PASS_VALUE_COMPANY2=cattier organization
 ```
 Should look something like this:
 ```bash
-[kingissuper@meow python+postgres_docker]$ docker compose up --build
+$ docker compose up --build
 [+] up 17/17
  ✔ Image postgres:15 Pulled                                                                                                     10.9s
 WARN[0010] buildx Docker CLI plugin not found: falling back to the classic builder. BuildKit-only build features (multi-arch, secrets, ssh, additional contexts, ...) will not be available 
